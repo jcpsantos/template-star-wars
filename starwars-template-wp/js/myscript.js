@@ -1,8 +1,4 @@
 //Menu Responsivo
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
-
 $('.dropdown-trigger').dropdown();
 
 //Efeito Background Home
