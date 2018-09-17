@@ -1,0 +1,288 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container-sw{
+    margin: 0 auto;
+    max-width: 1366px;
+    width: 90%;
+}
+
+.col-8-sw{
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+/*Menu*/
+nav.nav-menu-sw{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    text-transform: uppercase;
+}
+
+nav.nav-menu-black-sw{
+    background-color:black;
+}
+
+.navbar-sw{
+    position:absolute;
+}
+
+.hover-menu-sw li a{
+    font-size: 1.08rem;
+    font-weight: 600;
+}
+
+.hover-menu-sw li a:hover, :active{
+    color: #ffe81f;
+    text-decoration: underline;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    background-color: black;
+    color: white;
+}
+
+.menu-responsivo-sw{
+    display: none;
+}
+
+/*Home*/
+.large-header-sw{
+    position:relative;
+    width: 100%;
+    height: auto;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+section.home-sw .large-header-sw{
+    background-image: url('../img/bg-falcon-sw.png');
+}
+
+.title-sw{
+    position: absolute;
+	margin: 0;
+	padding: 0;
+	color: white;
+	top: 35%;
+	left: 50%;
+}
+
+.title-sw h1{
+    font-size: 4.16rem;
+    font-weight: 700;
+}
+
+.title-sw p{
+    font-size: 1.33rem;
+    font-weight: 400;
+}
+
+.btn-expand-sw{
+    position: absolute;
+    top: 85%;
+    width: 90%;
+    cursor: pointer;
+}
+
+.btn-expand-sw a i{
+    color: #ffe81f;
+}
+
+.btn-expand-sw a i:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-home-sw{
+    color: #ffe81f;
+    background-color: transparent;
+    border: solid 1.5px #ffe81f;
+    border-radius: 19px;
+    line-height: 22px;
+    padding: 5px 16px 5px 16px;
+    text-transform: none;
+    font-size: 1.33rem;
+    font-weight: 600;
+}
+
+a.btn-home-sw:hover{
+    background-color: transparent;
+    color: white;
+    border: solid 1.5px white;
+}
+
+/*Sobre*/
+section.sobre-sw{
+    margin-top: 50px;
+}
+
+.sobre-sw h2, .noticias-sw h2, .contato-sw h2, .contato-sw h3{
+    color: #ffe81f;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.sobre-sw p{
+    font-size: 1.33rem;
+    font-weight: 400;
+}
+
+/*Notícias*/
+section.noticias-sw{
+    margin-top:50px;
+}
+
+figure.text-noticias-sw{
+    color: black;
+}
+
+figure.text-noticias-sw figcaption{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+figure.text-noticias-sw span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.grow:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition:all 0.3s ease;
+}
+
+/*Contato*/
+section.contato-sw{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    background: url(../img/espaco-star-wars-bg.png);
+}
+
+input[type=text]:not(.browser-default), input[type=email]:not(.browser-default),
+input[type=tel]:not(.browser-default){
+    border-bottom: none;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1px 0px 0px 5px;
+}
+
+textarea.materialize-textarea{
+    height: 130px;
+    border-bottom: none;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1px 0px 0px 5px;
+}
+
+input, textarea{
+    text-transform: uppercase;
+    color: #565555;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contato-sw h2 {
+    margin-left: 10px;
+}
+
+.btn-form-sw{
+    background: #ffe81f;
+    width: 100%;
+    color: black;
+    font-size: 1.16rem;
+    font-weight: 600;
+}
+
+button.btn-form-sw:hover{
+    background: white;
+}
+
+ul.list-contato-sw span{
+    color: white;
+    font-size: 1.33rem;
+    font-weight: 400;
+}
+
+.contato-sw h3{
+    font-size: 1.66rem !important;
+}
+
+ul.list-contato-sw i{
+    color: #ffe81f;
+}
+
+ul.list-contato-sw li{
+    margin-bottom: 25px;
+}
+
+.margem-list-sw{
+    margin-top: 110px;
+}
+
+.list-social-sw{
+    display: inline-flex;
+}
+
+.list-social-sw li{
+    margin-left: 40px;
+}
+
+.list-social-sw li.facebook-sw{
+    margin-left: 0;
+}
+
+/*Footer*/
+
+.text-rodape-sw{
+    bottom: 36px;
+    position: relative;
+    font-size: 1.16rem;
+    font-weight: 600;
+}
+
+/*****Responsividade******/
+
+/*Celular*/
+@media (min-width: 320px) and (max-width: 600px){
+    /*Footer*/
+    .text-rodape-sw{
+        bottom: 0;
+        text-align: left !important;
+    }
+
+    /*Menu*/
+    nav{
+        height: 85px;
+    }
+
+    nav .dropdown-trigger i{
+        padding-top: 10px;
+    }
+
+    .logo-mobile-sw{
+        padding-top: 10px;
+    }
+
+    .menu-responsivo-sw{
+        display: block;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 601px) and (max-width: 800px){
+    /*Menu*/
+    .menu-responsivo-sw{
+        display: block;
+    }
+}
+
